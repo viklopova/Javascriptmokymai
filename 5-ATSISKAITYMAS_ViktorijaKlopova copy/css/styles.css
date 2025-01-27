@@ -1,0 +1,529 @@
+#page-container {
+  font-family: "Jost";
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+#banner {
+  background-color: #f6623e;
+  font-size: 14px;
+  align-items: center;
+  margin: 0;
+  max-width: 1920px;
+  padding: 5px 10px 5px 10px;
+  justify-content: center;
+}
+
+#banner .info-text {
+  color: #000;
+  padding-left: 90px;
+}
+
+#banner .actions {
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 440px;
+}
+
+#banner .actions img {
+  display: inline;
+}
+
+#banner .actions span {
+  border-right: #fff solid 1px;
+  padding-right: 5px;
+}
+
+nav.navbar {
+  background-color: #fff !important;
+}
+
+nav .logo p {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+nav .container #navbarNav {
+  justify-content: center;
+}
+
+nav ul li.nav-item {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #353535;
+  padding-right: 20px;
+}
+
+nav ul li.nav-item:last-child {
+  padding-right: 0;
+}
+
+nav ul li.nav-item a:hover {
+  color: #f6623e;
+}
+
+header {
+  background-image: url(..//img/headerbg.svg);
+  background-size: cover;
+  width: 100%;
+  height: 70%;
+}
+
+header img {
+  position: bottom;
+  width: 100%;
+  background-size: cover;
+  margin-top: 120px;
+}
+
+header .container .row .col-12 {
+  margin-top: 50px;
+  width: 100%;
+  padding-left: 30px;
+}
+header h6 {
+  color: #f6623e;
+  font-weight: 100;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+header h2 {
+  color: #000;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+header p {
+  color: #454545;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+header button {
+  width: 140px;
+  height: 47px;
+  background-color: #f6623e !important;
+  color: #fff;
+  border-radius: 0 !important;
+  border: #f6623e solid !important;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+header button:hover {
+  background-color: #fff !important;
+  color: #f6623e !important;
+}
+
+section.deals {
+  background-color: #fff;
+}
+
+section.deals .container .section-header h2 {
+  font-size: 36px;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+section.deals .container .section-header .line {
+  border-bottom: #f6623e solid 3px;
+  width: 30px;
+  padding-bottom: 20px;
+}
+
+section.deals .container .section-header p {
+  color: #454545;
+  font-size: 16px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section.deals #thirdline .row svg.iconify.icon.iconify {
+  width: 50px;
+  height: 50px;
+}
+
+section.deals #thirdline .row .col-lg-4 div img {
+  width: 30px;
+  position: absolute;
+  left: 210px;
+  bottom: 1px;
+  opacity: 0.7;
+}
+
+section.deals #thirdline .icon-box {
+  position: relative;
+}
+
+section.product-range {
+  font-family: "Jost";
+  background-color: #fff8f6;
+}
+
+section.product-range h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+section.product-range p {
+  color: #454545;
+  font-size: 16px;
+}
+
+section.product-range button {
+  width: 254px;
+  height: 56px;
+  color: #000;
+  text-transform: uppercase;
+  background-color: #fff8f6;
+  border: #f6623e solid 1px;
+}
+
+section.product-range button:hover {
+  background-color: #f6623e;
+  color: #fff;
+}
+
+section.product-range .first-col {
+  background-color: #fff8f6;
+}
+
+section.product-range .third-col #thirdphoto {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/woman1.svg");
+  background-size: cover;
+}
+
+section.product-range .second-col #first-photo {
+  height: auto;
+  width: 100%;
+}
+
+section.product-range .second-col #second-photo {
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+section.discounts .container .img-block img {
+  position: relative;
+}
+
+section.discounts .container .sale-bage {
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  background-color: #f6623e;
+  color: #fff;
+  font-family: "jost";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section.discounts h2 {
+  font-size: 36px;
+  font-family: "jost";
+}
+
+section.discounts p {
+  font-size: 14px;
+  font-family: "jost";
+}
+
+section.discounts a.newprice {
+  color: #f6623e;
+  font-size: 10px !important;
+  text-decoration: none;
+}
+
+section.discounts a.oldprice {
+  color: #9d9d9d;
+  font-size: 10px;
+  text-decoration: line-through;
+}
+
+section.discounts button {
+  width: 254px;
+  height: 56px;
+  color: #000;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: #f6623e solid 1px;
+  border-radius: 0;
+}
+
+section.discounts button:hover {
+  background-color: #f6623e;
+  color: #fff;
+}
+
+main.review {
+  background-color: #fef0e7;
+  font-family: "Jost";
+}
+
+main.review .container h6 {
+  color: #000;
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  font-family: "jost";
+}
+
+main.review .container h3 {
+  color: #f6623e;
+  font-size: 30px;
+  letter-spacing: 4px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+main.review .container p {
+  color: #454545;
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 44px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+main.review .container a {
+  color: #f6623e;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+main.review .container a:hover {
+  color: #f6623e;
+}
+
+main.review .container .row #icons svg.iconify.icon.iconify {
+  width: 44px;
+  height: 44px;
+  color: #9d9d9d;
+}
+
+main.review .container .row #icons svg.iconify.icon.iconify:hover {
+  color: #f6623e;
+}
+
+section.shop h2 {
+  font-size: 36px;
+  font-family: "jost";
+  text-transform: uppercase;
+}
+
+section.shop p {
+  font-size: 12px;
+  font-family: "jost";
+}
+
+section.shop a.newprice {
+  color: #f6623e;
+  font-size: 10px !important;
+  text-decoration: none;
+}
+
+section.shop a.oldprice {
+  color: #9d9d9d;
+  font-size: 10px;
+  text-decoration: line-through;
+}
+
+section.shop button {
+  width: 254px;
+  height: 56px;
+  color: #000;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: #f6623e solid 1px;
+  border-radius: 0;
+  align-items: center;
+}
+
+section.shop button:hover {
+  background-color: #f6623e;
+  color: #fff;
+  border-color: #f6623e solid 2px;
+  box-shadow: none;
+}
+
+section.news h2 {
+  font-size: 36px;
+  font-family: "jost";
+  text-transform: uppercase;
+}
+
+section.news .container h6 {
+  font-size: 12px;
+  color: #f6623e;
+  line-height: 20px;
+  font-family: "jost";
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+section.news .container h3 {
+  font-size: 18px;
+  height: 44px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-family: "jost";
+}
+
+section.news .container p {
+  color: #9d9d9d;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "jost";
+  padding-bottom: 10px;
+}
+
+section.news button {
+  width: 91px;
+  height: 30px;
+  text-transform: uppercase;
+  border: #f6623e solid 1px;
+  border-radius: 0;
+  align-items: center;
+  font-size: 12px;
+  background-color: #f6623e;
+  color: #fff;
+  border-color: #f6623e solid 2px;
+  margin-bottom: 60px;
+}
+
+section.news button:hover {
+  color: #000;
+  background-color: #fff;
+  border: #f6623e solid 1px;
+}
+
+section.news .container .gallery img {
+  height: 196px;
+  width: 196px;
+}
+
+footer {
+  background-color: #fff8f6;
+  margin-top: 20px;
+}
+
+footer .container h3 {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "jost";
+  margin-bottom: 30px;
+}
+
+footer .container p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #454545;
+  font-family: "jost";
+}
+
+footer .container h4 {
+  font-size: 26px;
+  line-height: 26px;
+  font-family: "jost";
+  margin-bottom: 30px;
+}
+
+footer .container .input-group {
+  border-bottom: #000 solid 2px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: #fff8f6;
+}
+
+footer .container .input-group .col-lg-8 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #454545;
+  font-family: "jost";
+  text-align: left;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+footer .container .input-group .col-lg-4 button {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "jost";
+  text-align: right;
+  padding: 0;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  color: #f6623e;
+  border: 0;
+  background-color: #fff8f6;
+}
+
+footer .container h5 {
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "jost";
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+footer .container .info-col {
+  line-height: 30px;
+  text-align: left;
+  padding-left: 150px;
+}
+
+footer .container #footer-line {
+  border-bottom: #9d9d9d solid 1px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+footer
+  .container
+  #footer-line
+  .container
+  .row
+  .col-lg-4
+  svg.iconify.icon.iconify {
+  width: 10px;
+  height: 10px;
+  color: #9d9d9d;
+}
+
+footer .container .copyright {
+  color: #000;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+footer .container .copyright span {
+  color: #f6623e;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+}

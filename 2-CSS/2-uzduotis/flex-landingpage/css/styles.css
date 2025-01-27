@@ -1,0 +1,55 @@
+#page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+.flex-container {
+    display: flex;
+}
+
+.slide {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main-page {
+    background-image: url(..//img/layout/Rectangle\ 2.svg);
+}
+
+header {
+    background-color: #fff;
+    height:10%;
+    color: #222222;
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    text-align: left;
+
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 15px;
+    padding: 10px;
+    color: #222222;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 19.07px;
+    letter-spacing: 1px;
+    text-align: left;
+;
+}
+.banner1 {
+    background-color: #EB5757;    ;
+}

@@ -1,0 +1,8 @@
+h2{color: white;
+background-color: rgb(66, 173, 137,0.4);}
+.paragpraph{color: black;
+background-color: rgb(165, 165, 80, 0.3);}
+#first-block{background-image: url(100.jpeg);
+background-size: 100;}
+#second-block{background-image: url(200.jpeg);}
+#third-block{background-image: url(300.jpeg);}

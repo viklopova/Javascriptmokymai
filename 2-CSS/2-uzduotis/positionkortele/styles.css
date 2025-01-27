@@ -1,0 +1,104 @@
+#maincontainer {
+    width: 527px;
+    height: 1326px;
+    padding: 90px 115px 137px 136px;
+    background-color:rgba(226, 225, 225, 1);
+    align-items: center;
+    position: relative;
+    gap: 50px;
+}
+
+img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card {
+    width: 276px;
+    height: 345px;
+    position: relative;
+    left: 136px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(96, 97, 112, 0.16);
+}
+
+.card:hover {
+    border: 3px solid rgba(62, 127, 225, 1);
+    box-shadow: 8px 13px 23px 9px rgba(62, 127, 225, 0.3);
+}
+
+.image {
+    width: 276px;
+    height: 208px;
+}
+
+.date {
+    width: 56px;
+    height: 56px;
+    position:absolute;
+    top: 148px;
+    left: 204px;
+    gap: 0px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 4px 0px rgba(96, 97, 112, 0.16);
+    box-shadow: 0px 1px 1px 0px rgba(40, 41, 61, 0.04);
+    background-color: rgba(255, 255, 255, 1);
+    ;
+}
+.text {
+    width: 282px;
+    height: 138px;
+    padding: 0px 16px 0px 16px;
+}
+.text p {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:  rgba(149, 147, 147, 1);
+    margin: 2px;
+}
+
+.text h5 {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    margin: 2px;
+}
+
+.button {
+    display: inline-block;
+    padding-left: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap: 12px;
+}
+
+.day-number {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    top: 5.8px;
+    left: 13px;
+    position: relative;
+}
+
+.month {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    width: 25px;
+    height: 22px;
+    top: 28.62px;
+    left: 15px;
+    position: absolute;
+}

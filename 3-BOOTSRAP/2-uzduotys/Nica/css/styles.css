@@ -1,0 +1,146 @@
+* {
+    font-family: 'Roboto';;
+}
+/*NAV*/
+nav {
+    background-color: #fff;
+    color: #404445;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+nav .container .navbar-brand {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30.47px;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #878B9B;
+}
+
+nav .container .navbar-nav .nav-item {
+    padding: 0 20px 0 20px;
+}
+
+nav .navbar-nav .nav-item .active, nav .navbar-nav .nav-item .nav-link:hover {
+    color: #43C45F;
+}
+/*HEADER*/
+
+.header {
+    height: calc(100vh - 55px);
+    width: 100%;
+    background-image: url("..//images/main.svg");
+    padding-top: 200px;
+    padding-bottom: 200px;;
+    background-size: cover;
+}
+
+.header h1 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 82.03px;
+    text-align: center;
+    padding: 20px 0 20px 0;;
+}
+
+.header p {
+    color: #D5D7D8;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30.47px;
+    text-align: center;
+    padding: 20px 50px 20px 50px;;
+    margin: 0 200px 0 200px;
+}
+
+.header button {
+    background-color:#43C45F;
+    border: #43C45F;
+    width: 191px;
+    height: 47px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+/*joblists*/
+.job-list {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.job-list .first {
+    margin-bottom: 60px;
+    margin-top: 40px;;
+}
+
+svg {
+    color: #49C0FC;
+}
+
+h6 {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.78px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #404445;
+    padding: 10px 0 5px 0;
+}
+
+.job-list p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.35px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #5F6B81;
+    padding: 0 0 10px 0;
+}
+
+/* video blokas*/
+
+.video {
+background-color: #F1F8FF;
+padding: 70px 0 70px 0;
+height: calc(100vh - 5px);
+}
+
+.video h1 {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    color: #404445;
+    padding-bottom: 50px;
+}
+
+.video p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.89px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    color: #5F6B81;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+

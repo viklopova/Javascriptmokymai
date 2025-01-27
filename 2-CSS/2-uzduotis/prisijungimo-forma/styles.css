@@ -1,0 +1,68 @@
+body {
+background-image: url(1b38471ce9276d3061b4884713ab4f34.png);
+}
+.maindiv {
+margin: 80px 260px 80px 260px;
+background-color: white;
+padding: 88px 60px 88px 60px;
+box-shadow: 0px 4px 22px 9px rgba(0, 0, 0, 0.16);
+height: auto;
+}
+#addtext {
+    font-family: 'Niramit';
+    font-size: 15px;
+    text-align: center;
+    font-style: bold;
+}
+svg {
+    width: 154px;
+    height: 85px;
+    margin: auto;
+}
+h5 {
+    font-family: 'Niramit'  ;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.emailpass {
+    font-family: 'Niramit';
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+
+}
+input {
+    width: 324px;
+    height: 56px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid gainsboro;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+button {
+background-color: #02B4E2;
+width: 137px;
+height: 48px;
+border-radius: 30px;
+margin-right: 180px;
+padding-left: 5px;
+}
+form {
+    text-align: center;
+}
+p {
+    font-family: Niramit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    top: 120px;
+    left: 416px;
+    padding: 88px 260px 88px 260px;
+    gap: 35px;
+    opacity: 0px;
+
+
+}

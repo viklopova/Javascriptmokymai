@@ -1,0 +1,75 @@
+@import 'colors';
+
+.flex-container {
+    display: flex;
+}
+
+    header {
+        justify-content: space-between;
+        align-items:center;
+        width: 100%;
+        background-color: $headerFooterBGColor;
+
+        h1 {
+            padding: 15px;
+        }
+
+        nav {
+            ul {
+                li {
+                    list-style: none;
+                    margin-left: 10px;
+                    padding: 5px;
+
+                    a {
+                        cursor: pointer;
+                        color: blue;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner1 {
+        color: #fff;
+        background-color: $bannerBGColor;
+        text-align: center;
+
+        p {
+            padding: 5px;
+        }
+    }
+
+    main {
+        background-color: azure;
+
+        .straipsnis {
+            background-color: $cardBGColor;
+            border: 1px solid gray;
+            margin: 20px;
+            padding: 5px 10px 5px 10px;
+        }
+        
+        .eile1 .eile2 {
+            padding: 0 20px;
+            align-items: center;
+        }
+    }
+
+    .banner2, footer {
+        text-align: center;
+        align-items: center;
+        padding: 0 20px;
+        justify-content: space-around;
+    }
+
+    .banner2 {
+        background-color: $bannerBGColor;
+        color: #fff;
+    }
+    
+    footer {
+        color: black;
+        background-color: $headerFooterBGColor;
+            }

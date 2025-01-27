@@ -1,0 +1,49 @@
+@media screen and (max-width:768px) {
+    .work-info article p {
+        margin-bottom: 30px;
+    }
+    header {
+        padding-top: 50px;
+    }
+    header p {
+        font-size: 30px;;
+    }
+
+    .general-info-first {
+        text-align: center;
+    }
+    .general-info-first .text-col h3 {
+        text-align: center;
+    }
+    .general-info-first .text-col p {
+        text-align: center;
+    }
+
+    .video .video-col .video-wrapper iframe {
+        width:100%;
+        height: 350px;
+    }
+
+    .general-info-second .info-block {
+        margin-bottom: 30px;
+    }
+
+    section.subscribe-info .container .input-group input {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+        border-radius: 5px !important;
+    }
+
+    .subscribe-info .input-group button {
+        width: 100%;
+        border-radius: 5px !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    } 
+
+
+    section.team-info #team-members .row .card {
+        margin-bottom: 30px !important;
+    }
+}

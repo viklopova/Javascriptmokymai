@@ -1,0 +1,42 @@
+body {
+    background-color: aquamarine;
+}
+#block1, #block2, #block3, #block4, #block5 {
+    background-color:blueviolet;
+    max-width: 80%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    border: 12px solid green;
+    box-shadow: 5px 5px 15px black;
+}
+#block2 {
+    padding: 5em;
+    border: 3px solid red;
+    border-radius: 150px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.5);
+}
+#block3 {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 0em;
+    padding-left: 0em;
+    border-bottom: 10px solid brown;
+    border-right: 15px dashed black;
+}
+#block4 {
+    padding-top: 0em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+}
+#block5 {
+    padding-top: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 5em;
+    border-left: 10px dashed yellow;
+}

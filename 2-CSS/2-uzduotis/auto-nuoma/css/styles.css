@@ -1,0 +1,201 @@
+#maincontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+header {
+    justify-content: space-between;
+    height: 100px;
+    background-color: #fff;
+}
+
+header nav {
+    padding-top: 30px;
+    padding-right: 80px;
+}
+header nav ul li {
+    list-style: none;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 3px;
+}
+header nav ul li:hover {
+    background-color:#E7852B;
+    border-radius: 8px;
+}
+
+header h5 {
+    font-family: 'Poppins';
+    size: 20px;
+    padding: 30px 0 30px 0;
+    justify-content: space-between;
+    color: black;
+}
+
+header h5 span {
+    color:#E7852B;
+}
+header #logo {
+    flex-wrap: wrap;
+    width: 10%;
+    margin-top: 0;
+    margin-left: 80px;
+}
+
+main section#info-container {
+    font-family: 'Poppins';
+    height: 10%;
+    justify-content: right;
+    padding-left: 80px;
+}
+
+main section#info-container h2 {
+    font-family: 'poppins';
+    font-size: 50px;
+    flex-wrap: wrap;
+}
+
+main section#info-container p {
+    font-family: 'poppins';
+    font-size: 20px;
+    color: #E7852B;
+    font-weight: 700;
+    text-align: left;
+}
+
+main section#info-container button {
+    color: black;
+    border: 1px solid black;
+    font-family: 'poppins';
+    background-color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
+
+main section#info-container button:hover {
+    background-color: #E7852B;
+    border: #E7852B;
+    color: #fff;
+}
+
+main img {
+    width: 900px;
+    height: 500px;
+}
+
+#banner {
+    background-color: #E7852B;
+    height: 3%;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Inter';
+    font-weight: 100;
+}
+
+#banner p {
+    color: #fff;
+    font-family: 'poppins';
+    font-size: 12px;
+}
+
+section#cards {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+section#cards #cards-grid {
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+section#cards h4 {
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+}
+
+section#cards #cards-grid .car-card {
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px 15px 30px 15px;
+    align-items: center;
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+section#cards #cards-grid .car-card img{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+section#cards .car-card  h6 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    margin:0;
+    margin-bottom: 5px;
+}
+
+section#cards .car-card  p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #5B310B;
+    width: 100%;
+    background-color:#F4CAA4;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-left: 5px;
+    margin: 0 0 15px 0;
+}
+
+section#cards .car-card  p span {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #5B310B;
+}
+
+section#cards .car-card  button {
+    color: black;
+    border: 1px solid black;
+    font-family: 'poppins';
+    background-color: #fff;
+    font-size: 10px;
+    padding: 5px;
+    width: 45%;
+    border-radius: 3px;
+    height: 12%;;
+}
+
+section#cards .car-card  button:hover {
+    background-color: #E7852B;
+    border: #E7852B;
+    color: #fff;
+} 
+

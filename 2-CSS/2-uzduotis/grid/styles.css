@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+    grid-template-areas: 
+    'r r r r'
+    'b g g v'
+    'v2 v2 v2 v2';
+    grid-gap: 10px;
+
+}
+.header {
+    background-color: grey;
+    grid-area: r;
+    border-radius: 3px;
+}
+
+.Sidebar{
+    background-color: darkgrey;
+    grid-area: b;
+    border-radius: 3px;
+}
+
+.Content {
+    background-color: darkgray;
+    grid-area: g;
+    border-radius: 3px;
+}
+
+.Sidebar2 {
+    background-color: beige;
+    grid-area: v;
+    border-radius: 3px;
+}
+
+.Footer {
+    background-color: grey;
+    grid-area: v2;
+    border-radius: 3px;  
+}

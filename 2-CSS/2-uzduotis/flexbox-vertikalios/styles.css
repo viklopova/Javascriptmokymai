@@ -1,0 +1,37 @@
+.eile1, .eile2, .eile3, .eile4, .eile5 {
+    display: flex;
+    height: 300px;
+    padding: 10px 15px 10px 15px;
+}
+
+.eile1 {
+    background-color: orange;
+    justify-content: flex-start;
+}
+.eile2 {
+    background-color: lightgreen;
+    justify-content: flex-end;
+}
+
+.eile3 {
+    background-color: #ffe450;
+    align-items: center;
+    justify-content: first baseline;
+}
+
+.eile4 {
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+}
+
+.eile5 {
+    background-color: red;
+    align-items: end;
+    justify-content: end;
+}
+
+p {
+    background-color: white;
+    width: 30%;
+}

@@ -1,0 +1,54 @@
+#pagecontainer {
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 20px;
+}
+li {
+    display: inline-block;
+    padding-right: 20px;
+}
+li:hover {
+    color: red;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: aqua;
+}
+main {
+    background-image: url(..//display/istockphoto-2175490466-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 40%;
+    padding-right: 2%;
+    margin-bottom: 0;
+}
+#intarpas {
+    background-color: black;
+    color: white;
+    width: 150px;
+    margin-left: 70%;
+    padding: 3px 3px 3px 2px;
+    display: block;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 5px 50px 5px 50px;
+}

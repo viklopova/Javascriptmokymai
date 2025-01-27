@@ -1,0 +1,61 @@
+body {
+    background: rgba(228, 228, 231, 1);
+}
+.maindiv {
+width: 345px;
+height: 2,974px;
+top: 121px;
+left: 788px;
+padding: 8px 0px 0px 0px;
+align-items: center;
+margin: auto;
+}
+.kortele {
+    width: 329px;
+    height: 477px;
+    box-shadow: 0px 4px 13px 0px rgba(24, 24, 27, 0.2);
+    border-radius: 30px;
+    background-color: white;
+}
+img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: rgba(228, 228, 231, 1);
+}
+.kortelestekstas {
+width: Fill 329px;
+height: 263px;
+padding: 0 32px 36px 32px;
+}
+h3 {
+font-family: 'Poppins';
+font-size: 24px;
+text-align: left;
+}
+p {
+padding: 0 32px 25px 0;
+font-family: 'Nokora';
+font-size: 12px;
+text-align: left;
+}
+button {
+width: 127px;
+height: 32px;
+padding: 8px 16px 8px 16px;
+border: 2px solid rgba(14, 56, 92, 1);
+font-family: 'Inter';
+font-size: 12px;
+text-align: center;
+background-color: white;
+}
+button:hover {
+    border: 2px solid rgba(14, 56, 92, 1);
+    color: white;
+    background-color:rgba(14, 56, 92, 1);
+    ;
+}
+.kortele:hover {
+    box-shadow: 9px 5px 19px 0px rgba(80, 164, 240, 0.74);
+    box-shadow: -4px -9px 24px 0px rgba(80, 164, 240, 0.74);
+    
+}

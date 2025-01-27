@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Pirmas javascript
+    <!--inline -->
+    <button onclick="console.log('labas')">click me</button>
+    <div id="content"></div>
+    <!--internal-->
+    <script>
+      //function pvz() {
+      //console.log("funkcija pvz");
+      // }
+      //console.log("mano pirmas script tagas");
+      //console.log("++++++");
+      //document.getElementById("content").innerHTML = "naujas";
+      //document.write("write isvedimas");
+      //document.write('write isvedimas2');
+      //document.writeln("write ln");
+
+      //let role = "admin";
+
+      //switch (role) {
+      //case "guest":
+      //console.log("Guest user");
+      //break;
+      //case "admin":
+      //console.log("admin user");
+      //break;
+      //default:
+      //console.log("unknown user");
+
+      //   || or
+      //   && and
+      //let vardas = "petras";
+
+      //if (vardas === "jonas" || vardas === "petras") {
+      //console.log("Prisijunkite");
+      //}
+
+      for (let i = 1; i <= 5; i++) {
+        console.log("ciklas veikia");
+        i = 8;
+        console.log(i);
+      }
+
+      for (let i = 1; i < 10; i += 2) {
+        console.log("ciklas veikia: ", i);
+      }
+
+      for (let i = 20; i <= 10; i++) {
+        if (i % 2 === 0) {
+          console.log("skiacius " + i + " yra lyginis");
+        }
+      }
+
+      for (let i = 1; i <= 20; i++) {
+        if (i % 2 === 0 && i % 5 === 0) {
+          console.log("skaicius " + i + " dalinasi is 2 ir 5");
+        }
+      }
+
+      let start = 5;
+      let end = 15;
+
+      for (let i = start; i <= end; i++) {
+        console.log(i);
+      }
+    </script>
+
+    <!--external-->
+    <script src="script.js"></script>
+  </body>
+</html>

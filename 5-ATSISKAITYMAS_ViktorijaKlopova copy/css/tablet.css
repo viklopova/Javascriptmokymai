@@ -1,0 +1,141 @@
+@media screen and (min-width: 768px) and (max-width: 1230px) {
+  #banner .info-text {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #banner .actions {
+    width: 100%;
+    padding-left: 300px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+    border: 0;
+  }
+
+  header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  section.deals .deal-block {
+    margin-top: 10px;
+  }
+
+  section.deals #thirdline .icon-box p {
+    margin-bottom: 10px;
+  }
+
+  section.deals #thirdline .row .col-lg-4 div img {
+    left: 350px;
+  }
+
+  section.product-range .container .row .first-col {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  section.discounts .container img {
+    margin-top: 20px;
+  }
+
+  section.discounts .container p {
+    text-align: center;
+  }
+
+  section.discounts .container a {
+    text-align: center;
+  }
+
+  main.review {
+    text-align: center;
+  }
+
+  main.review img {
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  main.review #stars {
+    margin-top: 20px;
+  }
+
+  section.shop img {
+    margin-top: 20px;
+  }
+
+  section.news img {
+    margin: 0 auto;
+  }
+
+  section.news .gallery img {
+    row-gap: 10px;
+    column-gap: 10px;
+    height: auto;
+    width: auto;
+    margin-bottom: 10px;
+  }
+
+  footer.row {
+    text-align: center;
+  }
+
+  footer h4 {
+    margin-top: 50px;
+  }
+
+  footer h5 {
+    margin-top: 50px;
+  }
+  footer .container .input-group .col-lg-4 button {
+    padding-left: 250px;
+  }
+  footer.info-col {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer.info-col h5 {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  footer.info-col p {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  footer #footer-line {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  footer .container .info-col {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  footer .container .last-block {
+    text-align: center;
+  }
+
+  footer .container .last-block .copyright {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer .container .last-block img {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+}

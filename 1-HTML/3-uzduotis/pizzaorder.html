@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza order</title>
+</head>
+<body>
+    <h1> Pizza Delivery</h1>
+    <h3> Online Order Form</h3>
+    <br>
+<form>
+    <table>
+        <tr>
+            <td> <sup>*</sup>Name: </td>
+            <td> <input type="text" required> </td>
+            <td> <sup>*</sup>Tel:: </td>
+            <td> <input type="tel" required> </td>            
+        </tr>
+        <tr>
+            <td> <sup>*</sup> Address: </td>
+            <td> <input type="text" required> </td>
+            <td> <sup>*</sup>Email: </td>
+            <td> <input type="email" required> </td>            
+        </tr>
+        <tr>
+            <td> <sup>*</sup> Town/City:  </td>
+            <td> <input type="text" required>  </td>    
+        </tr>
+        <tr>
+            <td> <sup>*</sup> Postcode: </td> 
+            <td> <input type="text" required></td>
+        </tr>
+    </table>
+    <p> <sup>*</sup>required fields </p>
+    <br>
+    <table>
+        <tr>
+            <td> Topping </td>
+            <td> Size </td>
+            <td> Extras </td>           
+        </tr>
+        <tr>
+            <td>
+                <form>
+                <input type="radio" name="topping" value="margerita"> Margherita</form>
+            </td>
+            <td>
+                <form>
+                    <input type="radio" name="size" value="small">Small
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input type="checkbox" name="extras" value="mushrooms"> Mushrooms
+                </form>
+            </td>          
+        </tr>
+        <tr>
+            <td>
+                <form>
+                <input type="radio" name="topping" value="four season"> Four Seasons</form>
+            </td>
+            <td>
+                <form>
+                    <input type="radio" name="size" value="medium">Medium
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input type="checkbox" name="extras" value="green peppers"> Green peppers
+                </form>
+            </td>          
+        </tr>
+        <tr>
+            <td>
+                <form>
+                <input type="radio" name="topping" value="meat feast"> Meat Feast</form>
+            </td>
+            <td>
+                <form>
+                    <input type="radio" name="size" value="large">Large
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input type="checkbox" name="extras" value="anchovies"> Anchovies
+                </form>
+            </td>          
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <form>
+                    <input type="checkbox" name="extras" value="extra cheese"> Extra cheese
+                </form>
+            </td>          
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td> Preffered delivery day </td>
+            <td> <form> <input type="date"></form></td>
+        </tr>
+        <tr>
+            <td> Preffered delivery time </td>
+            <td> <form> <input type="time"></form></td>
+        </tr>
+        <tr>
+            <td> Delivery intructions </td>
+            <td> <form> <textarea cols="15" rows="6"> </textarea></form></td>
+        </tr>
+    </table>
+    <form>
+        <input type="submit" value="Submit order">
+    </form>
+</form>
+</body>
+</html>

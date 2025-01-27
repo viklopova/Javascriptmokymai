@@ -1,0 +1,202 @@
+#page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+}
+
+main .page-block {
+    height: 100vh;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px
+}
+
+header .title {
+    color: #222;
+    font-family: 'raleway';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    min-width: 300px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #222;
+    text-transform: uppercase;
+    font-family: 'Open sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height:20px;
+    letter-spacing: 1px; ;
+}
+
+header nav ul li a:hover {
+    color:#EB5757;
+}
+
+.nav-top {
+    position: fixed;
+    border-radius: 2px;
+    padding: 10px;
+    bottom:20px;
+    right:20px
+}
+.nav-top a {
+    text-decoration: none;
+    font-family: 'Raleway';
+}
+
+main #primary {
+    background-image: url("..//img/layout/Rectangle\ 2.svg");
+    text-align: center;
+    align-items: center;
+    padding: 30px 0;
+    background-size: cover;
+    height: 600px;
+
+}
+
+main #primary h1{
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 93.92px;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+main #primary p {
+    color: #fff;
+    font-family: 'Open sans';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+}
+
+main #primary button {
+    width: 150px;
+    height: 42px;
+    justify-content: center;
+    color: #EB5757;
+    background-color: #fff;
+    padding: 10px;
+    font-family: 'Open sans';
+    align-items: center;
+    margin: 20px;
+    font-size: 15px;
+    border: none;
+}
+main #primary button:hover {
+    background-color: #EB5757;
+    color: #fff;
+    border: none;
+}
+
+main #banner {
+    background-color: #EB5757;
+    text-align: center;
+    justify-content: space-around;
+    height: 80px;;
+    padding: 10px 100px 10px 100px;
+}
+
+main #banner p {
+    font-family: 'Open sans';
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 27.24px;
+    text-align: center;
+}
+
+main #artists {
+    justify-content: center;
+    align-items: center;
+}
+
+main #artists h3 {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+main #artists #line {
+    width: 10px;
+    height: 3px;
+    background-color: #EB5757;
+    margin-left: 595px;;
+}
+
+main #artists p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    width: 734px;
+    height: 62px;
+    margin-left: 233px;
+
+}
+
+main #artists #row1 {
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-wrap: wrap;
+}
+
+main #artists .artist-card {
+    width: 200px;
+    height: 290px; 
+    justify-content: center; 
+    padding: 2px, 8px;
+    align-content: center;
+}
+
+main #artists .artist-card img {
+    width: 150px;
+    height: 150px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border-color: #C4C4C4;
+    padding-left: 10px;
+}
+
+main #artists .artist-card h5 {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28.18px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+main #artists .artist-card span {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    padding-left: 10px;;
+}

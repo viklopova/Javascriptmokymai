@@ -1,0 +1,38 @@
+.eile {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+  }
+  .antra, .ketvirta{
+    background-color: #fe4500;
+  }
+  
+  .pirma, .trecia {
+    background-color: #fea400;
+  }
+
+  .antra p {
+    background-color: white;
+    margin: 15px;
+  }
+
+  .trecia {
+    justify-content: center;
+  }
+
+  .trecia p {
+    background-color: white;
+    padding: 15px;
+    width: 30%;
+    align-self: stretch;
+}
+
+  .ketvirta {
+    justify-content: space-between;
+  }
+
+  .ketvirta p {
+    background-color:#fea400;
+    padding: 15px;
+    margin: 15px;
+  }

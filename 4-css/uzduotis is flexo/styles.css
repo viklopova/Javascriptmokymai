@@ -1,0 +1,74 @@
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #fee3c3;
+}
+header h1 {
+  padding: 15px;
+}
+header nav ul li {
+  list-style: none;
+  margin-left: 10px;
+  padding: 5px;
+}
+header nav ul li a {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.banner1 {
+  color: #fff;
+  background-color: #892be1;
+  text-align: center;
+}
+.banner1 p {
+  padding: 5px;
+}
+
+main {
+  background-color: azure;
+}
+main .straipsnis {
+  background-color: #fff;
+  border: 1px solid gray;
+  margin: 20px;
+  padding: 5px 10px 5px 10px;
+}
+main .eile1 .eile2 {
+  padding: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner2, footer {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.banner2 {
+  background-color: #892be1;
+  color: #fff;
+}
+
+footer {
+  color: black;
+  background-color: #fee3c3;
+}

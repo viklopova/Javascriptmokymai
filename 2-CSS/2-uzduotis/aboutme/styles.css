@@ -1,0 +1,31 @@
+.image-sec {
+    background-image: url(..//aboutme/nuotrauka.svg);
+    width: 796px;
+    height: 373px;
+}
+
+#about-me {
+    width: 796px;
+    height: 62px;
+    top:373px;
+    padding-left: 50px;
+    position: sticky;
+    background-image: linear-gradient(180deg, #AFBACB 0%, rgba(175, 186, 203, 0) 110.33%);
+    font-family: 'Inter';
+    font-size: 32px;
+    text-align: left;
+    color: rgba(55, 54, 54, 1);
+    padding: 15px 310px 15px 133px;
+}
+
+p {
+    width: 464px;
+    height: 623px;
+    position: absolute;
+    top: 491px;
+    left: 133px;
+    font-family: 'Inter';
+    font-size: 14px;
+    text-align: left;
+
+}

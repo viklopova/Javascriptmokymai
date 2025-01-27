@@ -1,0 +1,15 @@
+h1{
+    background-color: lightgreen;
+    color: white;
+}
+#first-list {
+    background-color: aqua;
+}
+.list-item{
+    background-color: black;
+    color: blueviolet;
+}
+#second-block{
+    background-color: blue;
+    color: white;
+}

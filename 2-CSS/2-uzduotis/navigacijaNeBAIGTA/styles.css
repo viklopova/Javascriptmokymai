@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Inter';
+}
+.slide {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.number {
+    font-size: 128px;
+    font-weight: 400;
+}
+
+#slide-white {
+    background-color: white;
+}
+
+#slide-green {
+    background-color: green;
+}
+
+#slide-red {
+    background-color: red;
+}
+
+#slide-violet{
+    background-color: violet;
+}
+
+#slide-grey {
+    background-color: grey;
+}
+
+.menu {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.menu .section-pick {
+    width: 93px;
+    height: 42px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Inter';
+font-size: 15px;
+text-align: left;
+
+    border: 2px;
+    border: 2px solid rgba(241, 121, 101, 1)
+}
+
+.section-pick {
+    display: inline-block;
+}

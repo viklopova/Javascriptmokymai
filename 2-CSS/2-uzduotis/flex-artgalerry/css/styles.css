@@ -1,0 +1,97 @@
+#page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+header {
+    background-image: url(..//images/e736c74d2db64d244d4d5d362cdaefe7.jpeg);
+    height:300px;
+    background-size: cover;
+}
+header .top-nav {
+    padding: 25px 20px;
+}
+
+header .top-nav, header .top-nav nav ul  {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .top-nav .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.top-nav nav ul li {
+    list-style: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 15px;
+    padding: 10px;
+}
+.top-nav nav ul li:hover {
+    background-color: #e12e60;
+    border-radius: 3px;
+}
+
+header .heading {
+    width: 500px;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+header .heading h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat';
+    text-decoration: solid;
+}
+
+main .firstblock {
+    background-color: #EF5D69;
+    padding: 30px;
+}
+main .firstblock p {
+    background-color:#FCDFE1;
+    font-family: 'Roboto';
+    padding: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 22px;
+}
+
+main .secondblock {
+    background-color: #FCDFE1;
+    padding: 50px;
+
+}
+
+main .secondblock .text  {
+    font-family: 'Roboto';
+    margin-right: 10px;
+    background-color: white;
+    padding: 50px 30px;
+    width: 40%;
+    border-radius: 8px;
+}
+main .secondblock img {
+    border-radius: 8px;
+    width: 60%;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+
