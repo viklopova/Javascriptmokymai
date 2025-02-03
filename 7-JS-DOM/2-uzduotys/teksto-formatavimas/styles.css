@@ -1,0 +1,11 @@
+div #srifto-blokas {
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+div .teksto-stilius {
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 10px;
+}
