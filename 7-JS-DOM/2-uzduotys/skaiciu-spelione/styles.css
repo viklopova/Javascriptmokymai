@@ -1,0 +1,52 @@
+body {
+  background-color: #2d1c5d;
+}
+.page-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.page-container .image-block img {
+  align-items: center;
+  width: 461px;
+  height: 679px;
+}
+.number-block h1 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.number-block p {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+  color: #d4d4d4;
+}
+
+.number-block input {
+  background-color: #170e31;
+  border: solid 3px #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  width: 243px;
+}
+
+.number-block .guessSubmit {
+  width: 256px;
+  height: 53px;
+  padding: 16px 8px 16px 8px;
+  gap: 8px;
+  opacity: 0px;
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-size: adjust;
+  text-align: center;
+}

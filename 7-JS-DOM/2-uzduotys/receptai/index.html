@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receptai</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="receptai blokas">
+      <h2>Pasirinkite receptą:</h2>
+      <div class="receptoKortele" id="vistiena">
+        <img src="images/vistiena.jpg" class="kortelesImg" />
+        <h3>Vištiena su salotom</h3>
+        <p>
+          Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus
+          purus faucibus elit ut. Pellentesque montes.
+        </p>
+        <img src="images/burbulas.jpg" class="aktyvus" />
+      </div>
+      <div class="receptoKortele">
+        <img src="images/tortas.jpg" class="kortelesImg" id="tortas" />
+        <h3>Tortas su mėlynėm</h3>
+        <p>
+          Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus
+          purus faucibus elit ut. Pellentesque montes.
+        </p>
+        <img src="images/burbulas.jpg" class="aktyvus" />
+      </div>
+      <div class="receptoKortele">
+        <img src="images/makaronai.jpg" class="kortelesImg" id="makaronai" />
+        <h3>Makaronai su mėsa</h3>
+        <p>
+          Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus
+          purus faucibus elit ut. Pellentesque montes.
+        </p>
+        <img src="images/burbulas.jpg" class="aktyvus" />
+      </div>
+    </div>
+
+    <div class="porcijuSkaiciuokle blokas">
+      <h2>Kiek porcijų gaminsite?</h2>
+      <p>1</p>
+      <label for="poricijuSkaicius"></label>
+      <input
+        id="poricijuSkaicius"
+        type="range"
+        min="1"
+        max="10"
+        value="1"
+        step="1"
+      />
+    </div>
+
+    <div id="ingredientuKiekis" class="blokas">
+      <h2>Jums reikės šių ingredientų tokiais kiekiais:</h2>
+      <p>Čia bus ingredientai</p>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

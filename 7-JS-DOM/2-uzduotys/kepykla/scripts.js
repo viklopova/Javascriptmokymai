@@ -38,9 +38,9 @@ document.getElementById('employees-count').addEventListener('keyup', function(ev
     }
 }); 
 
-document.getElementById('employee-make-per-day').addEventListener('keyup', function(e) {
+document.getElementById('employee-makes-per-day').addEventListener('keyup', function(e) {
     let inputValue2 = e.target.valueAsNumber;
-
+    console.log(inputValue2);
     if (inputValue2<0) {
         e.target.classList.add('error');
         e.target.nextElementSibling.classList.add('show');

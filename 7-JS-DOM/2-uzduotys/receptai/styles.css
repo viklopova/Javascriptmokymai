@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto Flex", serif;
+  background-color: gainsboro;
+}
+
+.blokas {
+  display: block;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 20px 40px;
+  padding: 10px 20px;
+}
+
+.blokas h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.4px;
+  padding: 20px 10px;
+}
+
+.receptai .receptoKortele {
+  display: inline-block;
+  width: 22%;
+  margin: 10px;
+  padding: 0px;
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+  position: relative;
+}
+
+.receptai .receptoKortele img.kortelesImg {
+  width: 100%;
+  height: auto;
+}
+
+.receptai .receptoKortele h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14.06px;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.receptai .receptoKortele p {
+  font-family: "open sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.06px;
+  padding: 0px 20px;
+}
+
+.receptai .receptoKortele img.aktyvus {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.porcijuSkaiciuokle input[type="range"] {
+  cursor: pointer;
+  background: transparent;
+  appearance: none;
+  width: 216px;
+}
+
+.porcijuSkaiciuokle p {
+  margin-bottom: 0;
+}

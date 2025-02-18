@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="pig">
+        <img src="./img/pig.png" />
+      </div>
+      <div class="convert">
+        <div class="title-img">
+          <img src="./img/Vector-2.svg" />
+        </div>
+        <div>
+          <div class="suma">
+            <label>
+              <p>Turima suma</p>
+              <div class="input currency-from">
+                <input id="input-from-value" type="number" />
+              </div>
+              <span
+                >Įveskite savo turimą pinigų sumą ir pasirinkite valiutą.</span
+              >
+            </label>
+            <div class="currency">
+              <div>
+                <label>
+                  <p>Norima valiuta</p>
+                  <span class="currency-to"></span>
+
+              </div id="currency-to-label">
+              <p>Pasirinkite į kokią valiutą norite keisti turimą sumą.</p
+              >
+              <div class="buttons">
+                <button class="calculate">Konvertuoti</button>
+                <button class="active reset">Grįžti į pradžią</button>
+              </div>
+            </div>
+          </div>
+          <div id="result-area">
+            <h1></h1>
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
