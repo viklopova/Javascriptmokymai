@@ -16,3 +16,19 @@ body {
 .cards-list .card {
   height: 100%;
 }
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+button .filter-colapse {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#collapseWidthExample div.collapse-bg-color {
+  background-color: rgb(234, 234, 234);
+  border: none;
+}

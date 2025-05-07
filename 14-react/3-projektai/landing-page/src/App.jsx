@@ -8,6 +8,7 @@ import Features from './pages/features/Features';
 import AboutUs from './pages/aboutUs/AboutUs';
 import OurServices from './pages/OurServices/OurServices';
 import Gallery from './pages/gallery/Gallery';
+import Feedback from './pages/feedback/Feedback';
 
 function App() {
   const [landingPageData, setLandingPageData] = useState(null);
@@ -50,6 +51,11 @@ function App() {
               description={landingPageData.gallery.description}
               galleryItems={landingPageData.gallery.galleryItems}
             />
+            <Feedback
+              title={landingPageData.feedback.title}
+              feedbackItems={landingPageData.feedback.feedbackItems}
+            />
+
           </>
         )
       }

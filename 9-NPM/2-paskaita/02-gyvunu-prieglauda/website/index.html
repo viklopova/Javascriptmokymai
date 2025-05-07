@@ -12,27 +12,39 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <h3>Filtrai:</h3>
+    <p>
+      <button
+        class="btn btn-primary filter-collapse"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseWidthExample"
+        aria-expanded="false"
+        aria-controls="collapseWidthExample"
+      >
+        Filtrai
+      </button>
+    </p>
+    <div class="collapse" id="collapseWidthExample">
+        <div class="card card-body" style="width: 100%;">
+          <div class="container">
+            <div class="row">
+                <h3>Filtrai:</h3>
+            </div>
+            <div class="row g-3 filter-items"></div>
+            <div class="row">
+            <div class="col-12 text-end mt-3">
+              <button class="btn btn-primary" id="clear-filter">Išvalyti filtrus</button>
+              <button class="btn btn-primary" id="filter-button">Filtruoti</button>
+            </div>
+          </div>
       </div>
-      <div class="row g-3 filter-items"></div>
-      <div class="row">
-        <div class="col-12 text-end mt-3">
-          <button class="btn btn-danger" id="clear-filter">
-            Išvalyti filtrus
-          </button>
-          <button class="btn btn-primary" id="filter-button">Filtruoti</button>
         </div>
-      </div>
     </div>
-
-    <div class="container">
       <div class="row">
         <h3 class="no-pets-found"></h3>
         <h3>Gyvūnų sąrašas (<span id="petsCount"></span>):</h3>
       </div>
-
+    </div>
       <div class="row cards-list"></div>
     </div>
 
@@ -40,3 +52,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
+

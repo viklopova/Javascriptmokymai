@@ -123,5 +123,40 @@
                 "image": "https://images.pexels.com/photos/7978215/pexels-photo-7978215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             }
         ]
+    },
+    "feedback": {
+        "title": "What our clients say",
+        "feedbackItems": [
+            {
+                "img":"https://images.pexels.com/photos/321900/pexels-photo-321900.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "feedbackText": "For the first time in my life, I have found a place where I can be myself. I am so grateful to have found this place.",
+                "feedbackAuthor": "Draco Malfoy"
+            },
+            {
+                "img":"https://images.pexels.com/photos/14498410/pexels-photo-14498410.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "feedbackText": "This is the best place I have ever been to. I highly recommend it.",
+                "feedbackAuthor": "Harry Potter"
+            },
+            {
+                "img":"https://images.pexels.com/photos/31954386/pexels-photo-31954386/free-photo-of-close-up-of-relaxed-orange-and-white-cat.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "feedbackText": "I learned so much here. I highly recommend it.",
+                "feedbackAuthor": "Hermione Granger"
+            },
+            {
+                "img":"https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "feedbackText": "All my family and friends say it's the best place to be.",
+                "feedbackAuthor": "Ron Weasley"
+            },
+            {
+                "img":"https://images.pexels.com/photos/144234/bull-landscape-nature-mammal-144234.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "feedbackText": "A lot of experience here. There are a lot of opportunities to get to know new people.",
+                "feedbackAuthor": "Hagrid"
+            },
+            {
+                "img":"https://images.pexels.com/photos/26447936/pexels-photo-26447936/free-photo-of-portrait-of-guianan-toucanet.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "feedbackText": "I'm alumna of Hogwarts. It is a place where I found my true self.",
+                "feedbackAuthor": "Albus Dumbledore"
+            }
+        ]
     }
 }

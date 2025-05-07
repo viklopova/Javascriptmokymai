@@ -8,6 +8,11 @@ const FILTERS_TRANSLATIONS = {
     vaccinated: 'Skiepyta(s)'
 };
 
+const VALUE_TRANSLATIONS = {
+    true: 'Taip',
+    false: 'Ne'
+}
+
 const getData = (url) => {
     return fetch(BASE_URL + url).then(response => response.json())
 };
@@ -32,6 +37,7 @@ const generatePetsHTML = (pets) => {
       <div class="col-5">
           <div class="card">
               <div class="card-body">
+                 <p class="card-text"><img src="https://cdn2.thecatapi.com/images/${pet.id}.jpg"></p>
                   <h5 class="card-title">${pet.name}</h5>
                   <p class="card-text">Metai: ${pet.age}</p>
                   <p class="card-text">Veislė: ${pet.breed}</p>
@@ -56,7 +62,9 @@ const generatePetsHTML = (pets) => {
                     <label for="${typeFilter}" class="form-label">${ FILTERS_TRANSLATIONS[typeFilter]}:</label>
                     <select class="form-select" id="${typeFilter}">
                         <option value="visi" selected>Visi</option>
-                        ${filters[typeFilter].map(f => `<option value="${f}">${f}</option>`).join('')}
+                        ${filters[typeFilter].map(f => `<option value="${f}">
+                            ${f === true || f === false ? VALUE_TRANSLATIONS[f] : f}
+                            </option>`).join('')}
                     </select>
                 </div>
             `;
@@ -102,6 +110,8 @@ document.getElementById('filter-button').addEventListener('click', async () => {
 
 document.getElementById('clear-filter').addEventListener('click', async () => {
     
+    document.querySelector('.no-pets-found').style.display = 'none';
+
     for (let filterKey in FILTERS_TRANSLATIONS) {
         let filterElement = document.getElementById(filterKey);
         if (filterElement.tagName === 'SELECT') {
@@ -116,4 +126,5 @@ document.getElementById('clear-filter').addEventListener('click', async () => {
 
     addPetsNumberInHTML(pets.length);
 });
+
 
