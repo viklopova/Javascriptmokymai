@@ -1,0 +1,70 @@
+.header-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../../assets/header/headerBg.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1;
+  }
+}
+
+.header-content {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+}
+
+.header-title {
+  font-size: 80px;
+  color: rgb(69, 47, 47);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.header-subtitle {
+  color: #635757;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.header-btn {
+  background: linear-gradient(to right, #7f4826, #4e290e);
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-top: 20px;
+  text-transform: uppercase;
+
+}
+
+.header-btn:hover {
+  background: linear-gradient(to right, #e2b77d, #e59532);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+
+}

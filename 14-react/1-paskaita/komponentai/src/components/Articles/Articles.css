@@ -1,0 +1,7 @@
+.article-du {
+  display: flex;
+  border: solid 1px black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

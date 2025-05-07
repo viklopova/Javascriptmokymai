@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pirkiniu-sarasas {
+  border: solid 1px grey;
+  border-radius: 3px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.pirkiniu-sarasas:hover {
+  background-color: lightblue;
+}
+
+.antraste {
+  background-color: lightblue;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.antraste-tekstas {
+  margin: 0;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.tekstukas {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

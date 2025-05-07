@@ -1,0 +1,26 @@
+$textColor: blue;
+$hFontSize: 20px;
+
+#sassComponent {
+  h3 {
+    font-size:40px;
+    color:$textColor;
+  }
+}
+
+#sassContainer {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+
+  h5 {
+    color: $textColor;
+    font-size: $hFontSize;
+  }
+}
+
+button {
+    &.btn-click{
+        color:red
+    }
+}

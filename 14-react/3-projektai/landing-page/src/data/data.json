@@ -1,0 +1,127 @@
+{
+    "navigation":{
+        "title": "React landing page",
+        "navigationItems": [
+                "features",           
+                "about",
+                "services",
+                "gallery",
+                "testimonials",
+                "team",
+                "contact"
+        ]
+    },
+    "header":{
+        "title": "Magic tragic landing page ",
+        "subtitle": "the use of means (such as charms or spells) believed to have supernatural power over natural forces",
+        "button": "spread the magic"
+    },
+    "features":{
+        "title": "Features",
+        "featuresItems": [
+            {
+                "icon": "GiLion",
+                "title": "Griffindor magic",
+                "text": "Griffindor is the house of the brave, the loyal, the bold, the courageous."
+            },
+            {
+                "icon": "GiArcingBolt",
+                "title": "Hufflepuff magic",
+                "text": "Hufflepuff is the house of the hardworking, the loyal, the kind, the peaceful."
+            },
+            {
+                "icon": "GiEagleHead",
+                "title": "Ravenclaw magic",
+                "text": "Ravenclaw is the house of the wise, the intellectual, the curious, the creative."
+            },
+            {
+                "icon": "GiSnake",
+                "title": "Slytherin magic",
+                "text": "Slytherin is the house of the cunning, the strategic, the bold, the ambitious."
+            }
+        ]
+    },
+    "aboutUs": {
+        "title": "About Us",
+        "description": "We are a team of passionate wizards and witches who are dedicated to helping you spread the magic of our world.",
+        "whyChooseUs": "Why Choose Us",
+        "whyChooseList": [
+            "Expert wizards and witches",
+            "Quality products and services",
+            "Fast and reliable delivery",
+            "Great customer service"
+        ]
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "Discover our magical services that will transform your experience",
+        "servicesItems": [
+            {
+                "icon": "GiMagicGate",
+                "title": "Magical Solutions",
+                "text": "Custom magical solutions tailored to your specific needs and requirements."
+            },
+            {
+                "icon": "GiCauldron",
+                "title": "Potion Brewing",
+                "text": "Expert potion brewing services with the finest ingredients and techniques."
+            },
+            {
+                "icon": "GiSpellBook",
+                "title": "Spell Casting",
+                "text": "Professional spell casting services for various magical purposes."
+            },
+            {
+                "icon": "GiCrystalBall",
+                "title": "Divination",
+                "text": "Accurate divination services to help you see what the future holds."
+            },
+            {
+                "icon": "GiWizardStaff",
+                "title": "Enchantments",
+                "text": "Powerful enchantments to protect and enhance your magical items."
+            },
+            {
+                "icon": "GiMagicSwirl",
+                "title": "Magical Training",
+                "text": "Comprehensive magical training programs for all skill levels."
+            }
+        ]
+    },
+    "gallery": {
+        "title": "Gallery",
+        "description": "Hogwarts was founded around 990 A.D. by four of the greatest wizards and witches of the age: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin. They each represented an aspect of personality that they wanted to bring out in new students.",
+        "galleryItems": [
+            {
+                "id":1,
+                "title": "Potion Brewing",
+                "image": "https://images.pexels.com/photos/7978810/pexels-photo-7978810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            },
+            {
+                "id":2,
+                "title": "Semesters",
+                "image": "https://images.pexels.com/photos/7978055/pexels-photo-7978055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            },
+            {
+                "id":3,
+                "title": "Extra-curricular activities",
+                "image": "https://images.pexels.com/photos/7979070/pexels-photo-7979070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            },
+            {
+                "id":4,
+                "title": "School supplies",
+                "image": "https://images.pexels.com/photos/7979113/pexels-photo-7979113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            },
+            {
+                "id":5,
+                "title": "Dormitory",
+                "image": "https://images.pexels.com/photos/31269856/pexels-photo-31269856/free-photo-of-gloucester-cathedral-cloisters-with-stained-glass.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            },
+            {
+                "id":6,
+                "title": "Uniform",
+                "image": "https://images.pexels.com/photos/7978215/pexels-photo-7978215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            }
+        ]
+    }
+}

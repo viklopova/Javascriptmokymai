@@ -1,0 +1,143 @@
+body {
+  display: flex;
+  justify-content: center; /* Horizontaliai centras */
+  align-items: center; /* Vertikaliai centras */
+  margin: 0 auto;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center; /* Horizontaliai centras */
+  align-items: center; /* Vertikaliai centras */
+  align-items: center; /* Kad kiekviena kortelė būtų centravime */
+  gap: 20px; /* Atstumas tarp kortelių */
+}
+
+.komponentas1 {
+  width: 300px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.komponentas1:hover {
+  transform: translateY(-5px);
+}
+
+.komponentas1 h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.komponentas1 p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.komponentas1 button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.komponentas1 button:hover {
+  background-color: #005fa3;
+}
+
+.komponentas2 {
+  width: 350px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #eef6ff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.komponentas2 h2 {
+  font-size: 24px;
+  color: #0077cc;
+  margin-bottom: 15px;
+}
+
+.komponentas2 p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.komponentas3 {
+  width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f5fdf8;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.komponentas3 h2 {
+  font-size: 24px;
+  color: #2c7a4b;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.komponentas3 p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.komponentas3 strong {
+  color: #0077cc;
+}
+
+.komponentas5 {
+  width: 350px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff3e6;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.komponentas5 h1 {
+  font-size: 26px;
+  color: #cc6600;
+  margin-bottom: 20px;
+}
+
+.komponentas5 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.komponentas5 li {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s;
+}
+
+.komponentas5 li:hover {
+  background-color: #ffe0c2;
+  border-radius: 8px;
+}
