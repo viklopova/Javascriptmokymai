@@ -1,6 +1,7 @@
 import { Container, Col } from 'react-bootstrap';
 import './OurServices.scss';
-import ItemDetails from '../../components/itemDetails/ItemDetails';
+import ItemDetails from '../../components/ItemDetails/ItemDetails';
+
 const OurServices = ({ title, subtitle, servicesItems }) => {
   return (
     <section className="services-section">

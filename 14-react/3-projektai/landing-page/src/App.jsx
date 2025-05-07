@@ -9,6 +9,8 @@ import AboutUs from './pages/aboutUs/AboutUs';
 import OurServices from './pages/OurServices/OurServices';
 import Gallery from './pages/gallery/Gallery';
 import Feedback from './pages/feedback/Feedback';
+import Team from './pages/team/Team';
+import Contacts from './pages/contacts/Contacts';
 
 function App() {
   const [landingPageData, setLandingPageData] = useState(null);
@@ -55,7 +57,16 @@ function App() {
               title={landingPageData.feedback.title}
               feedbackItems={landingPageData.feedback.feedbackItems}
             />
-
+            <Team
+              title={landingPageData.team.title}
+              teamItems={landingPageData.team.teamItems}
+            />
+            <Contacts
+              title={landingPageData.contacts.title}
+              subtitle={landingPageData.contacts.subtitle}
+              contactInfo={landingPageData.contacts.contactInfo}
+              contactInfoItems={landingPageData.contacts.contactInfoItems}
+            />
           </>
         )
       }
