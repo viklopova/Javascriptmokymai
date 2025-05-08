@@ -46,17 +46,18 @@ const Contacts = () => {
             <div className="info-items">
               {contactInfoItems.map((item, index) => (
                 <div key={index} className="info-item">
-                  <div className="info-icon">{icons[item.icon]()}</div>
-                  <div className="info-content">
-                    <h4>{item.title}</h4>
-                    <p>{item.text}</p>
+                    <div className="info-icon">{icons[item.icon]()}</div>
+                    <div className="info-content">
+                      <h4>{item.title}</h4>
+                      <p>{item.text}</p>
+                    </div>
                   </div>
-                </div>
               ))}
             </div>
           </Col>
         </Row>
       </Container>
+      <div className="footer-line"></div>
     </section>
   );
 };

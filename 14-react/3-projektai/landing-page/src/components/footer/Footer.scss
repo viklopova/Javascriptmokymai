@@ -1,0 +1,30 @@
+.footer {
+    background-color: #b8754b9c;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .social-icons {
+        display: flex;
+        gap: 20px;
+
+        a {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.3);
+            }
+        }
+    }
+}
+

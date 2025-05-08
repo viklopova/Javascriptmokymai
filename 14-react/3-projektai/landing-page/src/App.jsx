@@ -11,6 +11,7 @@ import Gallery from "./pages/gallery/Gallery";
 import Testimonials from "./pages/feedback/Testimonials";
 import Team from "./pages/team/Team";
 import Contacts from "./pages/contacts/Contacts";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [landingPageData, setLandingPageData] = useState(null);
@@ -83,6 +84,7 @@ function App() {
               contactInfoItems={landingPageData.contacts.contactInfoItems}
             />
           </div>
+          <Footer />
         </>
       )}
     </>
