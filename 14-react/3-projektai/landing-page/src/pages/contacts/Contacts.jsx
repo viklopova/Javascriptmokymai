@@ -13,6 +13,7 @@ const Contacts = () => {
                 <Row>
                     <Col lg={8} className="contact-form">
                         <h2>{title}</h2>
+                        <span className="section-underline"></span>
                         <p>{subtitle}</p>
                         <form>
                             <div className="form-group mb-4">

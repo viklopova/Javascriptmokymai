@@ -1,15 +1,16 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import './AboutUs.scss';
-import aboutUsBG from '../../assets/aboutUs/aboutUsBG.jpg';
+import './About.scss';
+import aboutBG from '../../assets/aboutUs/aboutBG.jpg';
 import { FaCheck } from "react-icons/fa6";
 
-const AboutUs = ({ title, description, whyChooseUs, whyChooseList }) => {
+
+const About = ({ title, description, whyChooseUs, whyChooseList }) => {
   return (
     <section className="about-us">
-      <Container>
+      <Container className="position-relative">
         <Row className="align-items-center">
           <Col md={6} className="about-us-image">
-            <img src={aboutUsBG} />
+            <img src={aboutBG} />
           </Col>
           <Col md={6} className="about-us-content">
             <h2>{title}</h2>
@@ -35,4 +36,4 @@ const AboutUs = ({ title, description, whyChooseUs, whyChooseList }) => {
   );
 };
 
-export default AboutUs;
+export default About;

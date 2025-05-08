@@ -8,7 +8,7 @@
                 "gallery",
                 "testimonials",
                 "team",
-                "contact"
+                "contacts"
         ]
     },
     "header":{
@@ -41,7 +41,7 @@
             }
         ]
     },
-    "aboutUs": {
+    "about": {
         "title": "About Us",
         "description": "We are a team of passionate wizards and witches who are dedicated to helping you spread the magic of our world.",
         "whyChooseUs": "Why Choose Us",
@@ -124,7 +124,7 @@
             }
         ]
     },
-    "feedback": {
+    "testimonials": {
         "title": "What our clients say",
         "feedbackItems": [
             {

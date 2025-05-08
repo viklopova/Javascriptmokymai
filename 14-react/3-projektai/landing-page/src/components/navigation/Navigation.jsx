@@ -12,7 +12,7 @@ const Navigation = ({title, navItems}) => {
                         <Nav className="ms-auto">
                             {navItems.map((item, index) => (
                                 <Nav.Link 
-                                href={'#'+item} 
+                                href={`#${item.toLowerCase()}`} 
                                 key={index}>
                                 {item}
                                 </Nav.Link>
