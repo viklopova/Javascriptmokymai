@@ -105,3 +105,109 @@
     background-color: #fff;
     margin: 20px 0;
 }
+
+@media (max-width: 768px) {
+    .contacts {
+        padding: 40px 20px;
+
+        .contact-form {
+            h2 {
+                font-size: 22px;
+                letter-spacing: 2px;
+            }
+
+            .form-control {
+                width: 100%;
+                padding: 12px;
+            }
+
+            .btn-primary {
+                width: 100%;
+                margin-top: 15px;
+            }
+        }
+
+        .contact-info {
+            margin-top: 40px;
+
+            h3 {
+                font-size: 22px;
+                margin-bottom: 25px;
+            }
+
+            .info-items {
+                .info-item {
+                    margin-bottom: 15px;
+
+                    .info-icon {
+                        font-size: 18px;
+                    }
+
+                    .info-content {
+                        h4 {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 428px) {
+    .contacts {
+        padding: 30px 15px;
+
+        .contact-form {
+            h2 {
+                font-size: 20px;
+                letter-spacing: 1.5px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .form-control {
+                padding: 10px;
+                margin-bottom: 8px;
+            }
+
+            .btn-primary {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+        }
+
+        .contact-info {
+            margin-top: 30px;
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .info-items {
+                .info-item {
+                    margin-bottom: 12px;
+
+                    .info-icon {
+                        font-size: 16px;
+                        min-width: 25px;
+                    }
+
+                    .info-content {
+                        h4 {
+                            font-size: 15px;
+                            margin-bottom: 5px;
+                        }
+
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

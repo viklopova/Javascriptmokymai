@@ -6,7 +6,7 @@ import Navigation from "./components/navigation/Navigation";
 import Header from "./pages/header/Header";
 import Features from "./pages/features/Features";
 import About from "./pages/aboutUs/About";
-import OurServices from "./pages/OurServices/OurServices";
+import OurServices from "./pages/ourServices/OurServices";
 import Gallery from "./pages/gallery/Gallery";
 import Testimonials from "./pages/feedback/Testimonials";
 import Team from "./pages/team/Team";
